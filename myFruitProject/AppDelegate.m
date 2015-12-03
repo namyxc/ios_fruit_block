@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Fruit.h"
+#import "Tree.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSLog(@"Teszt");
+    Tree* t = [[Tree alloc] init];
+    
     return YES;
 }
 

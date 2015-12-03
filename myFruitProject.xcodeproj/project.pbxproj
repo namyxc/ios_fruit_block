@@ -13,6 +13,8 @@
 		8AAD768A1BF09C9900395FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAD76881BF09C9900395FF4 /* Main.storyboard */; };
 		8AAD768C1BF09C9900395FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAD768B1BF09C9900395FF4 /* Assets.xcassets */; };
 		8AAD768F1BF09C9900395FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAD768D1BF09C9900395FF4 /* LaunchScreen.storyboard */; };
+		8AAD76981BF09F3900395FF4 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD76971BF09F3900395FF4 /* Fruit.m */; };
+		8AAD769B1BF0AE1D00395FF4 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD769A1BF0AE1D00395FF4 /* Tree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8AAD768B1BF09C9900395FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AAD768E1BF09C9900395FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AAD76901BF09C9900395FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAD76961BF09F3900395FF4 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		8AAD76971BF09F3900395FF4 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		8AAD76991BF0AE1D00395FF4 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		8AAD769A1BF0AE1D00395FF4 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				8AAD76821BF09C9900395FF4 /* AppDelegate.h */,
 				8AAD76831BF09C9900395FF4 /* AppDelegate.m */,
+				8AAD76961BF09F3900395FF4 /* Fruit.h */,
+				8AAD76971BF09F3900395FF4 /* Fruit.m */,
+				8AAD76991BF0AE1D00395FF4 /* Tree.h */,
+				8AAD769A1BF0AE1D00395FF4 /* Tree.m */,
 				8AAD76851BF09C9900395FF4 /* ViewController.h */,
 				8AAD76861BF09C9900395FF4 /* ViewController.m */,
 				8AAD76881BF09C9900395FF4 /* Main.storyboard */,
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AAD769B1BF0AE1D00395FF4 /* Tree.m in Sources */,
+				8AAD76981BF09F3900395FF4 /* Fruit.m in Sources */,
 				8AAD76871BF09C9900395FF4 /* ViewController.m in Sources */,
 				8AAD76841BF09C9900395FF4 /* AppDelegate.m in Sources */,
 				8AAD76811BF09C9900395FF4 /* main.m in Sources */,
